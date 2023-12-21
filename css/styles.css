@@ -3,6 +3,56 @@
   padding: 0; }
 
 body {
-  background: #000; }
+  font-family: "Open Sans", Arial, Sans-serif;
+  font-size: 16px; }
+
+header {
+  background: url(../img/bg.jpg), #019851;
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat; }
+  header .contenedor_logo_menu {
+    padding: 25px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+    header .contenedor_logo_menu .logo a {
+      display: block; }
+      header .contenedor_logo_menu .logo a img {
+        vertical-align: top; }
+    header .contenedor_logo_menu .menu {
+      line-height: 50px; }
+      header .contenedor_logo_menu .menu a {
+        color: #fff;
+        margin-left: 60px;
+        font-size: 18px; }
+  header .texts {
+    color: #fff;
+    text-align: center;
+    margin: 200px 0; }
+    header .texts .first_line,
+    header .texts .second_line {
+      font-family: "Open Sans", Arial, Sans-serif;
+      font-weight: 300; }
+    header .texts .first_line {
+      font-size: 35px;
+      list-style: 35px;
+      margin-bottom: 30px; }
+    header .texts .second_line {
+      font-size: 25px;
+      list-style: 25px;
+      margin-bottom: 60px; }
+    header .texts .contenedor-btns a {
+      border-radius: 4px;
+      border: 2px solid #fff;
+      color: #fff;
+      padding: 12px 0;
+      font-weight: 600;
+      width: 235px;
+      margin: 0 10px; }
+      header .texts .contenedor-btns a:hover {
+        text-decoration: none;
+        background: #fff;
+        color: #4f4f4f; }
+
+/* esential import header */
 
 /*# sourceMappingURL=styles.css.map */
