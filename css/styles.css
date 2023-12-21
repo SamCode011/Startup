@@ -53,6 +53,64 @@ header {
         background: #fff;
         color: #4f4f4f; }
 
+.main .low {
+  padding: 70px 0; }
+  .main .low .title {
+    text-align: center;
+    font-family: "Open Sans", Arial, Sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 70px; }
+  .main .low .low {
+    text-align: center; }
+    .main .low .low .icon {
+      vertical-align: top;
+      margin-bottom: 30px; }
+    .main .low .low .first_line {
+      font-weight: 700;
+      margin-bottom: 30px;
+      font-size: 20px; }
+    .main .low .low .paragraph {
+      margin-bottom: 30px;
+      line-height: 28px; }
+.main .photos {
+  margin-bottom: 70px; }
+  .main .photos .photo {
+    margin-bottom: 20px; }
+    .main .photos .photo .thumb img {
+      border-radius: 3px;
+      width: 100%;
+      vertical-align: top; }
+    .main .photos .photo .title {
+      margin-top: 70px;
+      margin-bottom: 40px;
+      font-size: 32px;
+      line-height: 32px;
+      font-weight: 300; }
+      .main .photos .photo .title.blue {
+        color: #4facd3; }
+      .main .photos .photo .title.orange {
+        color: #ddb146; }
+    .main .photos .photo .paragraph {
+      line-height: 28px; }
+    .main .photos .photo .right {
+      text-align: right; }
+.main .clients {
+  background: #2d353e;
+  padding: 40px 0; }
+  .main .clients .title {
+    text-align: center;
+    font-family: "Open Sans", Arial, Sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 40px; }
+  .main .clients .client {
+    text-align: center; }
+    .main .clients .client a {
+      display: block; }
+
 /* esential import header */
 
 /*# sourceMappingURL=styles.css.map */
