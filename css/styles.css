@@ -258,6 +258,28 @@ footer .social {
     footer .social a.youtube {
       background: #cd201f; }
 
+@media screen and (max-width: 992px) {
+  header .contenedor_logo_menu .logo {
+    margin-bottom: 20px;
+    text-align: center; }
+  header .contenedor_logo_menu .menu {
+    text-align: center; }
+    header .contenedor_logo_menu .menu a {
+      margin: 0 20px; }
+  header .texts {
+    margin: 50px 0;
+    font-size: 16px; }
+    header .texts .first_line {
+      font-size: 1.5em; }
+    header .texts .second_line {
+      font-size: 1.3em; }
+    header .texts .contenedor-btns a {
+      margin-bottom: 10px; }
+
+  .main .photos .photo .title {
+    margin-top: 0; }
+  .main .clients .client {
+    margin-bottom: 40px; } }
 /* esential import header */
 
 /*# sourceMappingURL=styles.css.map */
